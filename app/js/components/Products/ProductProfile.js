@@ -13,8 +13,8 @@ const ProductProfile = (props) => {
 		 } = props.product;
 	return (
 		<div className={styles.profile}>
-			<div className="pure-g">
-				<div className="pure-u-1 pure-u-md-12-24">
+			<div className={`pure-g ${styles.centred}`}>
+				<div className="pure-u-1 pure-u-md-18-24">
 					<div className={styles.profileDescription}>
 						The <strong>{productName}</strong> has a wonderful {color} color, with 
 						inspired {productAdjective} {productMaterial} properties. 
@@ -22,7 +22,7 @@ const ProductProfile = (props) => {
 					<p>{text}</p>
 					<h4>Price: ${price}</h4>
 				</div>
-				<div className="pure-u-1 pure-u-md-6-24"/>
+				{/*<div className="pure-u-1 pure-u-md-1-24"/>*/}
 				<div className="pure-u-1 pure-u-md-6-24">
 					<div className={styles.imageWrapper}>
 						<img className={styles.profileImage} src={image} />

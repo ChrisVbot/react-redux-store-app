@@ -9,20 +9,6 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 import ProductListContainer from './components/Products/ProductListContainer';
 import ProductProfileContainer from './components/Products/ProductProfileContainer';
 
-// import store from './store';
-// import { getNames } from './actions/names';
-// import { getProducts } from './actions/products';
-// import names from '../../mock-data';
-// import PRODUCTS from '../../mock-products';
-
-// const grabNames = () => {
-// 	store.dispatch(getNames(names))
-// }
-
-// const grabProducts = () => {
-// 	store.dispatch(getProducts(PRODUCTS))
-// }
-
 export const routes = (
 	<Route path="/" component={Layout} >
 		<IndexRoute component={Main} />
