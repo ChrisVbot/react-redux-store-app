@@ -1,0 +1,15 @@
+.reviews {
+	padding: 50px 35px 40px 35px;
+	background: #222;
+}
+
+.review {
+	color: gray;
+	background: #eee;
+	border-radius: 5px;
+	padding: 12px 24px;
+	margin: 5px;
+	height: 150px;
+	overflow-y: auto;
+	overflow-wrap: break-word;
+}

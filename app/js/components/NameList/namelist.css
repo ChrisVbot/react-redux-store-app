@@ -1,0 +1,36 @@
+.namelist {
+	padding: 40px;
+	text-align: center;
+	background: #2d3f4f;
+	color: white;
+}
+
+.namelist a {
+	color: #7fdbff;
+	text-decoration: none
+}
+
+.namelist a:hover {
+	color: #265c83;
+}
+
+.namelist a:active {
+	color: #007be6;
+}
+
+.name-filter {
+	color: #222;
+}
+
+.name {
+	font-size: 1.25em;
+}
+
+.profile-name {
+	font-size: 5em;
+}
+
+.trash:hover {
+	cursor: pointer;
+	color: #ad1212;
+}

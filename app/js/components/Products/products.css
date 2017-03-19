@@ -1,0 +1,103 @@
+.product {
+	text-align: center;
+	height: 200px;
+	margin: 5px;
+	transition: 0.8s all;
+	background-size: cover;
+	color: white;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.product a {
+	color: #7fdbff;
+	text-decoration: none
+}
+
+.product a:hover {
+	color: #265c83;
+}
+
+.product a:active {
+	transition: color 0.1s;
+	color: #007be6;
+}
+
+.product h3 {
+	margin: 0 0 20px 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.product:hover {
+	transform: scale(1.05);
+}
+
+.product ul {
+	list-style: none;
+	padding: 0;
+}
+
+.product ul li:first-child {
+	font-size: 1.25em;
+}
+
+.product ul li:last-child {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+.products {
+	padding: 40px;
+}
+
+.profile {
+	padding: 40px;
+	background: #2d3f4f;
+	color: white;
+	position: relative;
+}
+
+.profile::after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-top: solid 50px #2d3f4f;
+	border-left: solid 50px transparent;
+	border-right: solid 50px transparent;
+	margin-left: -50px;
+}
+
+.profile-description {
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+.profile-image {
+	width: 100%;
+	height: auto;
+}
+
+.image-wrapper {
+	margin-top: 25%;
+	padding: 0 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.image-wrapper {
+		width: 75%;
+		margin: 0 auto;
+	}
+}
+
+
+
